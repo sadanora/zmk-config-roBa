@@ -121,10 +121,10 @@
 
         SYMBOLS {
             bindings = <
-&kp GRAVE                   &kp EXCLAMATION  &kp AT_SIGN      &kp HASH         &kp PERCENT                                                  &kp CARET         &kp AMPERSAND      &kp ASTERISK  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS
-&kp LEFT_SHIFT              &kp PLUS         &kp MINUS        &kp ASTRK        &kp SLASH    &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE     &kp EXCLAMATION   &kp EQUAL          &kp MINUS     &kp SEMICOLON         &kp SINGLE_QUOTE
-&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD   &kp LEFT_BRACKET             &kp RIGHT_BRACKET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA     &kp PERIOD            &kp SLASH
-&trans                      &trans           &trans           &trans           &trans       &trans                       &trans             &trans                                                                   &kp BACKSLASH
+&kp GRAVE                   &kp EXCLAMATION  &kp AT_SIGN      &kp HASH         &kp DOLLAR                                                  &kp PERCENT       &kp CARET          &kp AMPERSAND  &kp ASTERISK   &kp LEFT_PARENTHESIS
+&kp LEFT_SHIFT              &kp PLUS         &kp MINUS        &kp ASTRK        &kp SLASH   &kp LC(LA(KP_NUMBER_0))      &kp UNDERSCORE     &kp EXCLAMATION   &kp EQUAL          &kp MINUS      &kp SEMICOLON  &kp SINGLE_QUOTE
+&mt LEFT_SHIFT KP_NUMBER_0  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp LEFT_BRACKET             &kp RIGHT_BRACKET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp COMMA      &kp PERIOD     &kp SLASH
+&trans                      &trans           &trans           &trans           &trans      &trans                       &trans             &trans                                                             &kp BACKSLASH
             >;
         };
 
