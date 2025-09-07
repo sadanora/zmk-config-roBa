@@ -124,12 +124,12 @@
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
         };
 
-        layer_6 {
+        MOUSE {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans    &trans    &trans    &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &mkp MB1  &mkp MB3  &mkp MB2  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                                &trans
             >;
         };
 
@@ -142,7 +142,7 @@
             >;
         };
 
-        MOUSE {
+        FUNC {
             bindings = <
 &kp F1     &kp F2        &kp F3        &kp F4   &kp F5                       &trans    &trans          &kp LC(LS(TAB))  &kp LC(TAB)  &kp PAGE_UP
 &kp F6     &kp F7        &kp F8        &kp F9   &kp F10  &trans      &trans  &kp LEFT  &kp DOWN_ARROW  &kp UP           &kp RIGHT    &kp PAGE_DOWN
